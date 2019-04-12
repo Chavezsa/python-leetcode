@@ -53,7 +53,7 @@ class Solution:
 
         return dummy_node.next
 
-    def removeNthFromEnd1(selfself, head: ListNode, n: int):
+    def removeNthFromEnd1(self, head: ListNode, n: int):
         dummy_node = ListNode(-1)
         dummy_node.next = head
 
